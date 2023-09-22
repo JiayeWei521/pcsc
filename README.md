@@ -21,4 +21,4 @@ Joe Pitt-Francis and Jonathan Whiteley, Guide to Scientific Computing in C++, Sp
 
 - [CLIon](https://www.jetbrains.com/clion/download/)
 - VirtualBox [image](https://enacshare.epfl.ch/frjKdJVyaCZnTEhB3Pg2uxFsz8QvSW7)
-
+- [vdi.epfl.ch](https://vdi.epfl.ch) with the image SB-MATH-LINUX-2023
