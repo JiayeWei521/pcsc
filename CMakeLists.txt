@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(work)
 add_subdirectory(solutions)
-# add_subdirectory(lectures)
+add_subdirectory(lectures)
