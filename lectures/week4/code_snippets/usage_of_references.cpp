@@ -26,5 +26,5 @@ int main() {
 
   int ncols = 10, nrows = 10;
   double A[ncols * nrows];
-  std::cout << getValue(A, ncols, nrows, 2, 2);
+  getValue(A, ncols, nrows, 2, 2) = 10;
 }
