@@ -1,17 +1,17 @@
 /*
- * chapter-04-exercise-01.cpp
+ * address.cpp
  *
- *
+ * Address
  *
  * Created on: Oct 4, 2023
  * 	   Author: Jiaye Wei <jiaye.wei@epfl.ch>
  */
 
-#include <fstream>
 #include <iostream>
+#include <fstream>
 
 int main(int argc, char *argv[])
 {
-    int 
-    return 0;
+    int total_sum = 10;
+    std::cout << &total_sum << "\n";
 }

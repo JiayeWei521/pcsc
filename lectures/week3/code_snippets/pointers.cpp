@@ -69,7 +69,7 @@ void two_variables_question() {
 //////////////////////////////////////////////////////////////////////
 
 void unallocated_memory_access() {
-  // p_x stores the address of a int
+  // p_x stores the address of an int
   // not yet specified
   int *p_x;
 

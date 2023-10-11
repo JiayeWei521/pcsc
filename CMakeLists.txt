@@ -4,5 +4,5 @@ project(PCSC-Exercises)
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(work)
-add_subdirectory(solutions)
+add_subdirectory(exercises)
 add_subdirectory(lectures)
