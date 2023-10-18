@@ -3,7 +3,7 @@ struct Planet {
   double coords[3];
 };
 
-void move_c_style(Planet &p, double delta[3]);
+void move_c_style(Planet &p, double delta[3]){};
 
 int main() {
   double delta[3];
