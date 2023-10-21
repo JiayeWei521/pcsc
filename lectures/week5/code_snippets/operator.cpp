@@ -4,7 +4,7 @@ class A {
 public:
   int operator[](int i) {
     // modifies the behavior
-    return values[i] * 2;
+    return values[i] + 1;
   }
 
 private:
@@ -13,5 +13,5 @@ private:
 
 int main() {
   A a;
-  std::cout << a[2] << std::endl;
+  std::cout << a[3] << std::endl;
 }
