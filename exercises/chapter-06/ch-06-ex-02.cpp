@@ -57,3 +57,66 @@ Matrix Matrix::CalculateInverse() const
 
     return {inverse_entry11, inverse_entry12, inverse_entry21, inverse_entry22};
 }
+
+// Overloading the assignment operator
+Matrix& Matrix::operator=(const Matrix& B)
+{
+    entry11 = B.entry11;
+    entry12 = B.entry12;
+    entry21 = B.entry21;
+    entry22 = B.entry22;
+
+    return *this;
+}
+
+// Overloading the unary subtraction operator
+Matrix Matrix::operator-() const
+{
+    Matrix A;
+
+    A.entry11 = -entry11;
+    A.entry12 = -entry12;
+    A.entry21 = -entry21;
+    A.entry22 = -entry22;
+
+    return A;
+}
+
+// Overloading the binary addition operator
+Matrix Matrix::operator+(const Matrix& B) const
+{
+    Matrix A;
+
+    A.entry11 = entry11 + B.entry11;
+    A.entry12 = entry12 + B.entry12;
+    A.entry21 = entry21 + B.entry21;
+    A.entry22 = entry22 + B.entry22;
+
+    return A;
+}
+
+// Overloading the binary subtraction operator
+Matrix Matrix::operator-(const Matrix& B) const
+{
+    Matrix A;
+
+    A.entry11 = entry11 - B.entry11;
+    A.entry12 = entry12 - B.entry12;
+    A.entry21 = entry21 - B.entry21;
+    A.entry22 = entry22 - B.entry22;
+
+    return A;
+}
+
+// Method for multiplying a matrix by a specified double precision floating point variable
+Matrix Matrix::MultiplyByScalar(double scalar)
+{
+    Matrix A;
+
+    A.entry11 = scalar * entry11;
+    A.entry12 = scalar * entry12;
+    A.entry21 = scalar * entry21;
+    A.entry22 = scalar * entry22;
+
+    return A;
+}

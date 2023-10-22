@@ -21,6 +21,12 @@ public:
     double CalculateDeterminant() const;
     Matrix CalculateInverse() const;
 
+    Matrix& operator=(const Matrix& M);
+    Matrix operator-() const;
+    Matrix operator+(const Matrix& M) const;
+    Matrix operator-(const Matrix& M) const;
+
+    Matrix MultiplyByScalar(double scalar);
 };
 
 #endif
