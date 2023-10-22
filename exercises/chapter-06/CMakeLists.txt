@@ -16,5 +16,6 @@ foreach(f ${SOURCES})
     get_filename_component(dir ${f} DIRECTORY)
     add_executable(${basename} ${f}
             ch-06-ex-01.hpp
-            ../../codes_in_textbook/chapter-05/pointers_as_function_arguments.cpp)
+            ../../codes_in_textbook/chapter-05/pointers_as_function_arguments.cpp
+            ch-06-ex-02.hpp)
 endforeach()

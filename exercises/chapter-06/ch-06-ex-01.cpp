@@ -1,7 +1,7 @@
 /*
  * ch-06-ex-01.cpp
  *
- *
+ * Class of complex numbers
  *
  * Created on: Oct 18, 2023
  * 	   Author: Jiaye Wei <jiaye.wei@epfl.ch>
