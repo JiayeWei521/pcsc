@@ -9,8 +9,10 @@ T adder(T first, Args... args) {
 }
 
 int main() {
-  std::cout << adder(1, 2, 3, 4) << "\n";
-  std::cout << adder(1., 2., 3., 4.) << "\n";
-  std::cout << adder(std::string("a"), std::string("b")) << "\n";
-  std::cout << std::endl;
+    std::cout << adder(1, 2, 3, 4) << "\n";
+    std::cout << adder(1., 2., 3., 4.) << "\n";
+    std::cout << adder(std::string("a"), std::string("b")) << "\n";
+    std::cout << std::endl;
+    // auto res = adder(1., 2., 3., 4.);
+    // res += "";
 }

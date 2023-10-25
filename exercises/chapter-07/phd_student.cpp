@@ -7,5 +7,4 @@
  * 	   Author: Jiaye Wei <jiaye.wei@epfl.ch>
  */
 
-#include "ch-07-ex-01.hpp"
-#include <cmath>
+#include "phd_student.hpp"

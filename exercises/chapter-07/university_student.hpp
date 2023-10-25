@@ -9,12 +9,18 @@
 
 class UniversityStudent
 {
+private:
+    double libraryFines;
+
 public:
     std::string name;
-    double libraryFines;
     double tuitionFees;
 
-    double GetTotalOwedMoney();
+    UniversityStudent();
+
+    void SetLibraryFines(const double& libraryFines);
+    double GetLibraryFines() const;
+    virtual double GetTotalOwedMoney() const;
 
 };
 
