@@ -2,8 +2,8 @@
 // Created by Jiaye Wei on 25.10.2023.
 //
 
-#ifndef GRADUATESTUDENTSHEADERDEF
-#define GRADUATESTUDENTSHEADERDEF
+#ifndef PHDSTUDENTSHEADERDEF
+#define PHDSTUDENTSHEADERDEF
 
 #include <iostream>
 #include "graduate_student.hpp"

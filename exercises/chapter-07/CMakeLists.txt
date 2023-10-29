@@ -15,7 +15,7 @@ foreach(f ${SOURCES})
     get_filename_component(basename ${f} NAME_WE)
     get_filename_component(dir ${f} DIRECTORY)
     add_executable(${basename} ${f}
-            university_student.hpp
-            ../../codes_in_textbook/chapter-05/pointers_as_function_arguments.cpp
-    )
+            ../../codes_in_textbook/chapter-07/AbstractOdeSolver.hpp
+            AbstractOdeSolver.cpp
+            ForwardEulerMethod.hpp)
 endforeach()
