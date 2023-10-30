@@ -121,4 +121,3 @@ Matrix Matrix::MultiplyByScalar(double scalar)
     return A;
 }
 
-// Tests of the code (copy-paste from solution)

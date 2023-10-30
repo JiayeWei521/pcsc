@@ -15,10 +15,5 @@ foreach(f ${SOURCES})
     get_filename_component(basename ${f} NAME_WE)
     get_filename_component(dir ${f} DIRECTORY)
     add_executable(${basename} ${f}
-            ../../codes_in_textbook/chapter-07/AbstractOdeSolver.hpp
-            AbstractOdeSolver.cpp
-            ForwardEulerMethod.hpp
-            ForwardEulerSolver.cpp
-            ../../codes_in_textbook/chapter-08/DoubleVector.hpp
-            ../../codes_in_textbook/chapter-08/UseDoubleVector.cpp)
+            ProbabilityOfRain.hpp)
 endforeach()
