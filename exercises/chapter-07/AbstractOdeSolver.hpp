@@ -13,6 +13,8 @@ protected:
     double finalTime;
     double initialValue;
 
+    double (*function_rhs)(double y, double t);
+
 public:
     void SetStepSize(double h);
     void SetTimeInterval (double t0, double t1);

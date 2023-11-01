@@ -3,4 +3,5 @@
 #add_subdirectory(week3/code_snippets)
 #add_subdirectory(week4/code_snippets)
 #add_subdirectory(week5/code_snippets)
-add_subdirectory(week6/code_snippets)
+#add_subdirectory(week6/code_snippets)
+add_subdirectory(week7/code_snippets)

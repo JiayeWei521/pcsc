@@ -14,5 +14,9 @@ file(GLOB SOURCES  ${PROJECT_SOURCE_DIR}/*.cpp)
 foreach(f ${SOURCES})
     get_filename_component(basename ${f} NAME_WE)
     get_filename_component(dir ${f} DIRECTORY)
-    add_executable(${basename} ${f})
+    add_executable(${basename} ${f}
+            GetMaximum.cpp
+            ../chapter-06/Book.hpp
+            ../chapter-06/Book.cpp
+            ../../work/exo-templates/Box.hpp)
 endforeach()
