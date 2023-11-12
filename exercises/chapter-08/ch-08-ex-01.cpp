@@ -9,7 +9,7 @@
 
 #include <iostream>
 #include <cmath>
-#include "ProbabilityOfRain.hpp"
+#include "ProbabilityOfRain.cpp"
 
 int main()
 {

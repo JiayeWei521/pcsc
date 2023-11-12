@@ -5,15 +5,6 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 # As you solve exercises, you need to add them here.
 # The syntax is add_executable(executable_name source_file_name)
 
-cmake_minimum_required(VERSION 3.5)
-project(snippet)
 
-set(CMAKE_CXX_STANDARD 20)
-
-file(GLOB SOURCES  ${PROJECT_SOURCE_DIR}/*.cpp)
-foreach(f ${SOURCES})
-    get_filename_component(basename ${f} NAME_WE)
-    get_filename_component(dir ${f} DIRECTORY)
-    add_executable(${basename} ${f}
-            ProbabilityOfRain.hpp)
-endforeach()
+add_executable(ch-08-ex-03 ch-08-ex-03.cpp ComplexNumber.cpp)
+add_executable(ch-08-ex-04 ch-08-ex-04.cpp Point2d.cpp)

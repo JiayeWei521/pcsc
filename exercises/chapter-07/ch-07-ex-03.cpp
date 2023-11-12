@@ -12,11 +12,14 @@
  */
 #include <iostream>
 
+double f_rhs(double y, double t)
+{
+    return 1.0+t;
+}
+
 int main(int argc, char* argv[])
 {
-	/*
-	 * The body of the program goes here
-	 */
+	double
     return 0;
 }
 

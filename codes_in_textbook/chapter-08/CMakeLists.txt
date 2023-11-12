@@ -18,5 +18,7 @@ foreach(f ${SOURCES})
             GetMaximum.cpp
             ../chapter-06/Book.hpp
             ../chapter-06/Book.cpp
-            ../../work/exo-templates/Box.hpp)
+            ../../work/exo-templates/box.cpp
+            ../../work/exo-stl/std_vector.cpp
+            UseStdVector.cpp)
 endforeach()

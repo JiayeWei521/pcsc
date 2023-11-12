@@ -16,11 +16,18 @@ protected:
     double (*function_rhs)(double y, double t);
 
 public:
+    // Constructor and destructor
+    AbstractOdeSolver();
+    virtual ~AbstractOdeSolver();
+
+    // Other public methods
     void SetStepSize(double h);
     void SetTimeInterval (double t0, double t1);
     void SetInitialValue(double y0);
+    void SetRightHandSide(double (*f)(double y, double t));
+
     virtual double RightHandSide(double y, double t) = 0;
-    virtual double SolveEquation() = 0;
+    virtual void SolveEquation() = 0;
 };
 
 

@@ -9,8 +9,11 @@
 
 class ForwardEulerMethod : public AbstractOdeSolver
 {
-    double RightHandSide(double y, double t) const;
-    double SolveEquation() const;
+    ForwardEulerMethod();
+    ForwardEulerMethod(double h);
+    ~ForwardEulerMethod();
+
+    void SolveEquation() const;
 };
 
 #endif

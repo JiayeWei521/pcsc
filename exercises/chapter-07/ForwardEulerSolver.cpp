@@ -4,13 +4,13 @@
 
 #include "ForwardEulerMethod.hpp"
 
-double ForwardEulerMethod::RightHandSide(double y, double t) const
+ForwardEulerMethod::ForwardEulerMethod()
 {
-    double (*p_function) (double y, double t);
-    return p_function(y, t);
+    stepSize = 0.0;
+
 }
 
-double ForwardEulerMethod::SolveEquation() const
+void ForwardEulerMethod::SolveEquation() const
 {
 
 }

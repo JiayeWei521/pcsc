@@ -6,3 +6,5 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 # The syntax is add_executable(executable_name source_file_name)
 
 add_subdirectory(exo-templates)
+add_subdirectory(exo-stl)
+add_subdirectory(exo-eigen)
