@@ -14,5 +14,8 @@ file(GLOB SOURCES  ${PROJECT_SOURCE_DIR}/*.cpp)
 foreach(f ${SOURCES})
     get_filename_component(basename ${f} NAME_WE)
     get_filename_component(dir ${f} DIRECTORY)
-    add_executable(${basename} ${f})
+    add_executable(${basename} ${f}
+            ../chapter-09/Exception.hpp
+            ../chapter-09/Exception.cpp
+            ../chapter-09/using_exceptions.cpp)
 endforeach()
